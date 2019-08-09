@@ -13,6 +13,7 @@ module.exports = {
         }
         
         loggedDev.dislikes.push(targetDev._id);
+        // loggedDev.dislikes.pop();
 
         await loggedDev.save();
  

@@ -17,7 +17,8 @@ module.exports = {
         }
 
         loggedDev.likes.push(targetDev._id);
-
+        // loggedDev.likes.pop();
+        
         await loggedDev.save();
  
         return res.json(loggedDev);
